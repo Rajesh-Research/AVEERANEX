@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowUpRight, ArrowRight, Menu, X, BrainCircuit, Layers3, AudioLines, ChartNoAxesCombined, ChevronDown } from 'lucide-react';
 
 export function Header() {
-  const path = usePathname();
+  const path = usePathname() || '';
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -31,7 +31,7 @@ export function Header() {
     return () => document.removeEventListener('keydown', f);
   }, [open, dropdownOpen]);
 
-  const isProductsActive = path.startsWith('/products');
+  const isProductsActive = path ? path.startsWith('/products') : false;
 
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>

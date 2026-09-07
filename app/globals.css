@@ -990,6 +990,7 @@ p, .body-copy {
   gap: 4px;
   opacity: 0;
   visibility: hidden;
+  pointer-events: none;
   transform: translateY(8px);
   transition: all 0.2s ease-in-out;
   z-index: 100;
@@ -998,6 +999,7 @@ p, .body-copy {
 .nav-dropdown.dropdown-open .dropdown-menu, .nav-dropdown:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
+  pointer-events: auto;
   transform: translateY(0);
 }
 
