@@ -2,7 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { Network } from '../site';
-import { Process } from '../sections';
+import { Process, Capabilities, Philosophy } from '../sections';
 import {
   ArrowUpRight,
   Check,
@@ -99,6 +99,12 @@ export default function About() {
 
       {/* 4. HOW WE BUILD (PROCESS) */}
       <Process about={true} />
+
+      {/* 5. CAPABILITIES */}
+      <Capabilities />
+
+      {/* 6. OUR PHILOSOPHY */}
+      <Philosophy />
 
       {/* 4. OUR PHILOSOPHY */}
       <section className="section philosophy-pillars-section">

@@ -333,7 +333,7 @@ export function HomePage() {
       </div>
 
       <section className="section belief" id="belief">
-        <div className="eyebrow">01 / What we believe</div>
+        <div className="eyebrow"><i className="blue-dot" /> What we believe</div>
         <div>
           <h2>Technology should do more<br />than process information.</h2>
           <p className="belief-words">Understand. <span>Learn.</span> Decide. <span>Act.</span></p>
@@ -348,10 +348,6 @@ export function HomePage() {
 
       <ProductShowcase />
       <Ecosystem />
-      <Process />
-      <Capabilities />
-      <Philosophy />
-      <Future />
       <HomeCTA />
     </main>
   );
