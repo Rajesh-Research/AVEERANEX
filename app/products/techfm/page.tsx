@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Metadata } from 'next';
-import Link from 'next/link';
+import Link from '@/components/link';
 import { ProductDetails } from '../../sections';
 import { ArrowUpRight, ArrowLeft } from 'lucide-react';
 

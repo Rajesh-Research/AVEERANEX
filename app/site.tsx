@@ -1,5 +1,5 @@
 'use client';
-import Link from 'next/link';
+import Link from '@/components/link';
 import { Brand } from './brand';
 import { ProductShowcase, Ecosystem, Process, Capabilities, Philosophy, Future } from './sections';
 import { usePathname } from 'next/navigation';

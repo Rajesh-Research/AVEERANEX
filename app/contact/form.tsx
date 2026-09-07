@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { ArrowUpRight, Mail } from 'lucide-react';
-import Link from 'next/link';
+import Link from '@/components/link';
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from '@/components/ui/select';
 const topics=['General Enquiry','Product Enquiry','Partnership','Research Collaboration','Business Collaboration','Media','Career Opportunity','Other'];
 export function ContactForm(){const params=useSearchParams();const [chosenTopic,setTopic]=useState<string|null>(null);const topic=chosenTopic||(topics.includes(params.get('topic')||'')?params.get('topic')!:'General Enquiry');const [draft,setDraft]=useState('');const product=params.get('product')==='learn'?'AVEERANEX Learn':params.get('product')==='techfm'?'TechFM':'';
