@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'AVEERANEX Products | AI Learning & Technology Intelligence',
   description: 'Explore AVEERANEX Learn and TechFM: intelligent digital products built for interactive learning and technology intelligence.',
   alternates: { canonical: '/products' },
-  openGraph: { title: 'AVEERANEX Products', url: 'https://aveeranex.com/products' }
+  openGraph: { title: 'AVEERANEX Products', url: 'https://www.aveeranex.com/products' }
 };
 
 export default function Products() {

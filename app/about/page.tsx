@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: 'About AVEERANEX | Where Research Meets Technology and Innovation',
   description: 'AVEERANEX (OPC) PRIVATE LIMITED is a technology company developing intelligent digital products and platforms across education, AI, knowledge intelligence and emerging technology domains.',
   alternates: { canonical: '/about' },
-  openGraph: { title: 'About AVEERANEX', url: 'https://aveeranex.com/about' }
+  openGraph: { title: 'About AVEERANEX', url: 'https://www.aveeranex.com/about' }
 };
 
 const philosophyPillars = [

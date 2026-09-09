@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'TechFM | Technology Intelligence & AI Briefings',
   description: 'AI-powered intelligence from global podcasts, technology news and innovation ecosystems.',
   alternates: { canonical: '/products/techfm' },
-  openGraph: { title: 'TechFM by AVEERANEX', url: 'https://aveeranex.com/products/techfm' }
+  openGraph: { title: 'TechFM by AVEERANEX', url: 'https://www.aveeranex.com/products/techfm' }
 };
 
 export default function TechFMProductPage() {

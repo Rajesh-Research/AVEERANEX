@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'AVEERANEX Learn | Interactive AI Learning Platform',
   description: 'An interactive learning platform that turns complex technology concepts into practical, hands-on experiences.',
   alternates: { canonical: '/products/learn' },
-  openGraph: { title: 'AVEERANEX Learn', url: 'https://aveeranex.com/products/learn' }
+  openGraph: { title: 'AVEERANEX Learn', url: 'https://www.aveeranex.com/products/learn' }
 };
 
 export default function LearnProductPage() {
