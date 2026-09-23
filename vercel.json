@@ -6,7 +6,19 @@
   "rewrites": [
     {
       "source": "/products/learn",
-      "destination": "https://aveeranex-learn.vercel.app/products/learn/"
+      "destination": "https://aveeranex-learn.vercel.app/index.html"
+    },
+    {
+      "source": "/products/learn/",
+      "destination": "https://aveeranex-learn.vercel.app/index.html"
+    },
+    {
+      "source": "/products/learn/admin",
+      "destination": "https://aveeranex-learn.vercel.app/admin/index.html"
+    },
+    {
+      "source": "/products/learn/admin/",
+      "destination": "https://aveeranex-learn.vercel.app/admin/index.html"
     },
     {
       "source": "/products/learn/:path*",
