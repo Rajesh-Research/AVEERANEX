@@ -2,5 +2,15 @@
   "framework": null,
   "buildCommand": "npm run build",
   "outputDirectory": "dist/client",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/products/learn",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/"
+    },
+    {
+      "source": "/products/learn/:path*",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/:path*"
+    }
+  ]
 }
