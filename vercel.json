@@ -21,6 +21,10 @@
       "destination": "https://aveeranex-learn.vercel.app/admin/index.html"
     },
     {
+      "source": "/products/learn/contact",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/contact.html"
+    },
+    {
       "source": "/products/learn/:path*",
       "destination": "https://aveeranex-learn.vercel.app/products/learn/:path*"
     }
