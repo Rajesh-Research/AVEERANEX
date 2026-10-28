@@ -25,6 +25,118 @@
       "destination": "https://aveeranex-learn.vercel.app/products/learn/contact.html"
     },
     {
+      "source": "/products/learn/courses",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/courses/"
+    },
+    {
+      "source": "/products/learn/courses/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/courses/"
+    },
+    {
+      "source": "/products/learn/courses/:path*",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/courses/:path*"
+    },
+    {
+      "source": "/products/learn/learn-and-practice",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/learn-and-practice/"
+    },
+    {
+      "source": "/products/learn/learn-and-practice/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/learn-and-practice/"
+    },
+    {
+      "source": "/products/learn/learn-and-practice/:tool",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/learn-and-practice/:tool"
+    },
+    {
+      "source": "/products/learn/learn-and-practice/:tool/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/learn-and-practice/:tool/"
+    },
+    {
+      "source": "/products/learn/learn-and-practice/:path*",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/learn-and-practice/:path*"
+    },
+    {
+      "source": "/products/learn/practice-and-achieve",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/practice-and-achieve/"
+    },
+    {
+      "source": "/products/learn/practice-and-achieve/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/practice-and-achieve/"
+    },
+    {
+      "source": "/products/learn/practice-and-achieve/cases/:area/:caseId",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/practice-and-achieve/cases/:area/:caseId"
+    },
+    {
+      "source": "/products/learn/practice-and-achieve/cases/:area/:caseId/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/practice-and-achieve/cases/:area/:caseId/"
+    },
+    {
+      "source": "/products/learn/practice-and-achieve/:area/:specialization",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/practice-and-achieve/:area/:specialization"
+    },
+    {
+      "source": "/products/learn/practice-and-achieve/:area/:specialization/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/practice-and-achieve/:area/:specialization/"
+    },
+    {
+      "source": "/products/learn/practice-and-achieve/:area",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/practice-and-achieve/:area"
+    },
+    {
+      "source": "/products/learn/practice-and-achieve/:area/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/practice-and-achieve/:area/"
+    },
+    {
+      "source": "/products/learn/practice-and-achieve/:path*",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/practice-and-achieve/:path*"
+    },
+    {
+      "source": "/products/learn/engineering",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/engineering/"
+    },
+    {
+      "source": "/products/learn/engineering/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/engineering/"
+    },
+    {
+      "source": "/products/learn/management",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/management/"
+    },
+    {
+      "source": "/products/learn/management/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/management/"
+    },
+    {
+      "source": "/products/learn/arts-sciences",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/arts-sciences/"
+    },
+    {
+      "source": "/products/learn/arts-sciences/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/arts-sciences/"
+    },
+    {
+      "source": "/products/learn/ai",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/ai/"
+    },
+    {
+      "source": "/products/learn/ai/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/ai/"
+    },
+    {
+      "source": "/products/learn/seo/:asset",
+      "destination": "https://aveeranex-learn.vercel.app/seo/:asset"
+    },
+    {
+      "source": "/products/learn/seo/:path*",
+      "destination": "https://aveeranex-learn.vercel.app/seo/:path*"
+    },
+    {
+      "source": "/products/learn/sitemap.xml",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/sitemap.xml"
+    },
+    {
       "source": "/products/learn/:path*",
       "destination": "https://aveeranex-learn.vercel.app/products/learn/:path*"
     }
@@ -33,11 +145,26 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Strict-Transport-Security", "value": "max-age=31536000" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
       ]
     }
   ]
