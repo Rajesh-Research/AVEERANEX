@@ -33,6 +33,14 @@
       "destination": "https://aveeranex-learn.vercel.app/products/learn/courses/"
     },
     {
+      "source": "/products/learn/courses/:courseSlug",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/courses/:courseSlug"
+    },
+    {
+      "source": "/products/learn/courses/:courseSlug/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/courses/:courseSlug/"
+    },
+    {
       "source": "/products/learn/courses/:path*",
       "destination": "https://aveeranex-learn.vercel.app/products/learn/courses/:path*"
     },
