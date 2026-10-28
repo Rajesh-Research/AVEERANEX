@@ -45,6 +45,14 @@
       "destination": "https://aveeranex-learn.vercel.app/products/learn/learn-and-practice/"
     },
     {
+      "source": "/products/learn/learn-and-practice/:tool",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/learn-and-practice/:tool"
+    },
+    {
+      "source": "/products/learn/learn-and-practice/:tool/",
+      "destination": "https://aveeranex-learn.vercel.app/products/learn/learn-and-practice/:tool/"
+    },
+    {
       "source": "/products/learn/learn-and-practice/:path*",
       "destination": "https://aveeranex-learn.vercel.app/products/learn/learn-and-practice/:path*"
     },
@@ -115,6 +123,10 @@
     {
       "source": "/products/learn/ai/",
       "destination": "https://aveeranex-learn.vercel.app/products/learn/ai/"
+    },
+    {
+      "source": "/products/learn/seo/:asset",
+      "destination": "https://aveeranex-learn.vercel.app/seo/:asset"
     },
     {
       "source": "/products/learn/seo/:path*",
